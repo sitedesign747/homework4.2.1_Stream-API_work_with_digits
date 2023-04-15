@@ -13,7 +13,7 @@ public class Main {
 
         int count = 0;
         for (int x : intList) {
-            if (x >= 0) {
+            if (x > 0) {
                 if (x % 2 == 0) {
                     result.add(x);
                     count++;
